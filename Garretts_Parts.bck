@@ -1,3 +1,23 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CURRENT_AMP_(INA293B5IDBVT)
+F https://www.ti.com/lit/ds/symlink/ina293-q1.pdf?ts=1622037307929
+$ENDCMP
+#
+$CMP FUSE_HOLDER_(01220083Z)
+F https://www.digikey.com/en/products/detail/littelfuse-inc/01220083Z/2498890?s=N4IgTCBcDaIAwEYxjnAHAZgFogLoF8g
+$ENDCMP
+#
+$CMP POSITRONIC_CONN_(CBD13W6F)
+F https://www.posishop.com/store/default.aspx?appname=Store&tabname=Product%20Selection&PartNumber=CBD13W6F35S600X/AA&ProdCatID=
+$ENDCMP
+#
+$CMP Smart-Tank-Motherboard-rescue_POSITRONIC_CONN_(CBD13W6F)
+F https://www.posishop.com/store/default.aspx?appname=Store&tabname=Product%20Selection&PartNumber=CBD13W6F35S600X/AA&ProdCatID=
+$ENDCMP
+#
+$CMP TE_AUTO_RELAY_(1432795-1)
+F http://www.digikey.com/product-detail/en/te-connectivity-potter-brumfield-relays/1432795-1/PB684-ND/807761
+$ENDCMP
+#
 #End Doc Library

@@ -1,3 +1,39 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATMEGA328P-PU_(28-DIP)
+F https://www.digikey.com/en/products/detail/microchip-technology/ATMEGA328P-PU/1914589
+$ENDCMP
+#
+$CMP CTS_DIP_SW_(219-6MST)
+F https://www.digikey.com/en/products/detail/cts-electrocomponents/219-6MST/223203
+$ENDCMP
+#
+$CMP CURRENT_AMP_(INA240A3)
+F https://www.digikey.com/en/products/detail/texas-instruments/INA240A3EDRQ1/9861456
+$ENDCMP
+#
+$CMP CURRENT_AMP_(INA293B5IDBVT)
+F https://www.ti.com/lit/ds/symlink/ina293-q1.pdf?ts=1622037307929
+$ENDCMP
+#
+$CMP FUSE_HOLDER_(01220083Z)
+F https://www.digikey.com/en/products/detail/littelfuse-inc/01220083Z/2498890?s=N4IgTCBcDaIAwEYxjnAHAZgFogLoF8g
+$ENDCMP
+#
+$CMP POSITRONIC_CONN_(CBD13W6F)
+F https://www.posishop.com/store/default.aspx?appname=Store&tabname=Product%20Selection&PartNumber=CBD13W6F35S600X/AA&ProdCatID=
+$ENDCMP
+#
+$CMP TEMP_COND_(AD8495)
+F https://www.digikey.com/en/products/detail/analog-devices-inc/AD8495ARMZ-R7/2404132
+$ENDCMP
+#
+$CMP TE_AUTO_RELAY_(1432795-1)
+F http://www.digikey.com/product-detail/en/te-connectivity-potter-brumfield-relays/1432795-1/PB684-ND/807761
+$ENDCMP
+#
+$CMP TI_ADC_(ADS8332)
+F https://www.digikey.com/en/products/detail/texas-instruments/ADS8332IBPW/2573800
+$ENDCMP
+#
 #End Doc Library
