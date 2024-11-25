@@ -1,19 +1,24 @@
-(footprint "3x5mm_WIRE_PAD" (version 20221018) (generator pcbnew)
+(footprint "2-PIN_3x5mm_WIRE_PAD" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 57bebb77-b634-43f1-a0db-aa56a4e57114)
   )
-  (fp_text value "3x5mm_WIRE_PAD" (at -0.2 2.2) (layer "F.Fab") hide
+  (fp_text value "2-PIN_3x5mm_WIRE_PAD" (at -0.2 2.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 65fc2cd3-1ddd-4654-a8d8-265ae48355e2)
+  )
+  (fp_text user "DESC" (at 2.8 -6) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.15)) (justify left))
+    (tstamp 913f525a-b7a5-4eec-80b2-3a3aa43e36ed)
   )
   (fp_text user "DESC" (at 2.8 -2) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp b36b056f-71a9-4818-8a15-29fa04e13b51)
   )
-  (pad "1" smd rect (at 0 -2) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e0d50b5e-fc1b-40c4-a43b-8df70677851b))
+  (pad "1" smd rect (at 0 -6) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e7d84115-a544-4884-a015-45837ae8c638))
+  (pad "2" smd rect (at 0 -2) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e0d50b5e-fc1b-40c4-a43b-8df70677851b))
   (model "C:/Users/garre/OneDrive - Tetil Engineering Inc/Documents/Projects/garretts-kicad-parts/Garretts_Parts.pretty/3x5 pad.stp"
     (offset (xyz 0 1.99898 0))
     (scale (xyz 1 1 1))

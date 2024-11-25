@@ -1,0 +1,185 @@
+(footprint "Slide_Switch_(GPI-151-0002)"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "38c4c47f-71ab-46f1-ad51-d2c544302758")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Slide_Switch_(GPI-151-0002)"
+		(at 0 -9.882 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0ca1061c-c904-4044-8a0d-600738b6a295")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -10.882 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0afba6cd-5975-4085-a8c4-3dcc2f3e227f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -10.882 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae0fb271-82af-4c0b-8332-22394ca20b85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -10.882 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "537ab548-0d8b-481b-a41e-0d72beb5df50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.192 -3.302)
+		(end -12.192 3.175)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9fddaac4-de66-43c0-952e-66fe5291d933")
+	)
+	(fp_line
+		(start -9.906 -4.953)
+		(end 9.906 -4.953)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd1a0185-5665-4eb8-a2f3-bab0598cf867")
+	)
+	(fp_line
+		(start -9.906 4.826)
+		(end 9.906 4.826)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fcd5fd0b-9de5-4c40-a572-e12d56221b2d")
+	)
+	(fp_line
+		(start 12.192 -3.2385)
+		(end 12.192 3.2385)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c0228d5c-64b6-4cbf-99bd-a855178c6620")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.128 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a84093e3-bd3a-42d1-9cba-7f7f5bffb163")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -11.43 -4.85)
+		(size 2.35 2.35)
+		(drill 1.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9dd9c548-176b-4907-8547-cc23f69cec7f")
+	)
+	(pad "" np_thru_hole circle
+		(at -11.43 4.85)
+		(size 2.35 2.35)
+		(drill 1.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "11fac4ee-b746-4431-8c1d-b17f8a268096")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.43 -4.85)
+		(size 2.35 2.35)
+		(drill 1.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c6caa8c0-2ae1-4f6f-b8bb-d0875e66b1a6")
+	)
+	(pad "" np_thru_hole circle
+		(at 11.43 4.85)
+		(size 2.35 2.35)
+		(drill 1.65)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1f1cfe1e-2c93-4d9b-852c-38e0f78409a2")
+	)
+	(pad "1" thru_hole circle
+		(at -4.6 -1.09)
+		(size 2.35 2.35)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2b96d2ae-85f5-401d-815e-1c1bd5b28372")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -1.09)
+		(size 2.35 2.35)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17200486-4b88-4bda-aecd-01227e999150")
+	)
+	(pad "3" thru_hole circle
+		(at 4.6 -1.09)
+		(size 2.35 2.35)
+		(drill 1.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "252f9a3a-27b2-415e-aa14-26eb936ff5e3")
+	)
+	(model "C:/Users/garre/OneDrive - Tetil Engineering Inc/Documents/Projects/garretts-kicad-parts/Garretts_Parts.pretty/Slide_Switch_(GPI-151-0002).stp"
+		(offset
+			(xyz 4.3 -2.75 -0.87)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
